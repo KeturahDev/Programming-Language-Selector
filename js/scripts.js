@@ -16,7 +16,6 @@ $(document).ready(function () {
       $('#c').hide();
       $('#python').hide();
       $('#ruby').hide();
-
     } else if (score >= 60 && score <= 175) {
       $('#javascript').hide();
       $('#c').hide();
@@ -27,7 +26,6 @@ $(document).ready(function () {
       $('#c').show();
       $('#python').hide();
       $('#ruby').hide();
-
     } else if (score >= 300) {
       $('#javascript').hide();
       $('#c').hide();
