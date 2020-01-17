@@ -15,12 +15,17 @@ $(document).ready(function () {
     console.log('score:', score);
 
     var scoreString = String(score);
+    console.log('scoreString:', scoreString);
 
-    console.log('placeHolder:', scoreString[0]);
+    console.log('placeHolder1- for test:', scoreString[0]);
     var ruby = scoreString[1];
+    console.log('placeHolder2- for ruby:', scoreString[1]);
     var c = scoreString[2];
+    console.log('placeHolder3- for c:', scoreString[2]);
     var python = scoreString[3];
+    console.log('placeHolder4- for python:', scoreString[3]);
     var javascript = scoreString[4];
+    console.log('placeHolder5- for js:', scoreString[4]);
 
     $('#javascript').hide();
     $('#c').hide();
@@ -41,13 +46,13 @@ $(document).ready(function () {
     };
 
     if (javascript > ruby && javascript > c && javascript > python) {
-      showJavaScript()
+      showJavaScript();
     } else if (python > ruby && python > c && python > javascript) {
-      showPython()
+      showPython();
     } else if (c > ruby && c > python && c > javascript) {
-      showC()
+      showC();
     } else if (ruby > c && ruby > python && c > javascript) {
-      showRuby()
+      showRuby();
     } else {
       if (javascript === ruby) {
         showJavaScript();
@@ -70,27 +75,27 @@ $(document).ready(function () {
       }
     }
 
-    if (score < 120) {
-      $('#javascript').show();
-      $('#c').hide();
-      $('#python').hide();
-      $('#ruby').hide();
-    } else if (score >= 120 && score <= 300) {
-      $('#javascript').hide();
-      $('#c').hide();
-      $('#python').show();
-      $('#ruby').hide();
-    } else if (score > 300 && score <= 400) {
-      $('#javascript').hide();
-      $('#c').show();
-      $('#python').hide();
-      $('#ruby').hide();
-    } else if (score >= 400) {
-      $('#javascript').hide();
-      $('#c').hide();
-      $('#python').hide();
-      $('#ruby').show();
-    }
+    // if (score < 120) {
+    //   $('#javascript').show();
+    //   $('#c').hide();
+    //   $('#python').hide();
+    //   $('#ruby').hide();
+    // } else if (score >= 120 && score <= 300) {
+    //   $('#javascript').hide();
+    //   $('#c').hide();
+    //   $('#python').show();
+    //   $('#ruby').hide();
+    // } else if (score > 300 && score <= 400) {
+    //   $('#javascript').hide();
+    //   $('#c').show();
+    //   $('#python').hide();
+    //   $('#ruby').hide();
+    // } else if (score >= 400) {
+    //   $('#javascript').hide();
+    //   $('#c').hide();
+    //   $('#python').hide();
+    //   $('#ruby').show();
+    // }
     // if (score < 60) {
     //   $('#javascript').show();                //
     //   $('#c').hide();
