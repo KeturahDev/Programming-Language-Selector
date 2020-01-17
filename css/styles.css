@@ -1,3 +1,23 @@
+body {
+  background-image: linear-gradient(to left bottom, #ffed00, #e59a26, #a85734, #572a2a, #000000);
+}
+form{
+  padding:30px;
+}
+img{
+  /* max-height: 50px; */
+}
+.jumbotron {
+  /* color: rgb(255, 255, 255); */
+  text-align: center;
+  background:transparent !important;
+  font-weight: 900;
+  /* background-color:  */
+  /* background-image: linear-gradient(to right, #ffffff, #e59a26, #e59a26, #ffffff);  background-color:#ffffff; */
+}
+.form-group{
+  padding: 15px;
+}
 #c {
   display: none;
 }
