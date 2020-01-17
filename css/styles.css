@@ -1,12 +1,9 @@
 body {
-  background-image: linear-gradient(to left bottom, #ffed00, #e59a26, #a85734, #572a2a, #000000);
-}
+  background-image: linear-gradient(to bottom, #ffed00, #e59a26, #a85734, #572a2a, #000000);}
 form{
   padding:30px;
 }
-img{
-  /* max-height: 50px; */
-}
+
 .jumbotron {
   /* color: rgb(255, 255, 255); */
   text-align: center;
@@ -18,15 +15,24 @@ img{
 .form-group{
   padding: 15px;
 }
+.panel-body{
+  background-color: rgb(119, 146, 189);
+}
 #c {
   display: none;
+  color: aliceblue
 }
 #ruby {
   display: none;
+  color: aliceblue;
+  
 }
 #javascript {
   display: none;
+  color: aliceblue;
 }
 #python {
   display: none;
+  color: aliceblue;
+  
 }
