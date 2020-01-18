@@ -1,22 +1,27 @@
 body {
-  background-image: linear-gradient(to bottom, #ffed00, #e59a26, #a85734, #572a2a, #000000);}
+  background-image: linear-gradient(to bottom, #ffed00, #e59a26, #a85734, #572a2a, #000000);
+  margin-bottom: 8%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
 form{
   padding:30px;
 }
 
 .jumbotron {
-  /* color: rgb(255, 255, 255); */
   text-align: center;
   background:transparent !important;
   font-weight: 900;
-  /* background-color:  */
-  /* background-image: linear-gradient(to right, #ffffff, #e59a26, #e59a26, #ffffff);  background-color:#ffffff; */
 }
 .form-group{
   padding: 15px;
 }
+.panel-heading{
+  text-align: center;
+}
 .panel-body{
-  background-color: rgb(119, 146, 189);
+  text-align: center;
+  background-color: rgb(115, 134, 165);
 }
 #c {
   display: none;
