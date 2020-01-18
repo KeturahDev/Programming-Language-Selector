@@ -51,7 +51,7 @@ $(document).ready(function () {
       showPython();
     } else if (c > ruby && c > python && c > javascript) {
       showC();
-    } else if (ruby > c && ruby > python && c > javascript) {
+    } else if (ruby > c && ruby > python && ruby > javascript) {
       showRuby();
     } else {
       if (javascript === ruby) {
@@ -74,49 +74,5 @@ $(document).ready(function () {
         showRuby();
       }
     }
-
-    // if (score < 120) {
-    //   $('#javascript').show();
-    //   $('#c').hide();
-    //   $('#python').hide();
-    //   $('#ruby').hide();
-    // } else if (score >= 120 && score <= 300) {
-    //   $('#javascript').hide();
-    //   $('#c').hide();
-    //   $('#python').show();
-    //   $('#ruby').hide();
-    // } else if (score > 300 && score <= 400) {
-    //   $('#javascript').hide();
-    //   $('#c').show();
-    //   $('#python').hide();
-    //   $('#ruby').hide();
-    // } else if (score >= 400) {
-    //   $('#javascript').hide();
-    //   $('#c').hide();
-    //   $('#python').hide();
-    //   $('#ruby').show();
-    // }
-    // if (score < 60) {
-    //   $('#javascript').show();                //
-    //   $('#c').hide();
-    //   $('#python').hide();
-    //   $('#ruby').hide();
-    // } else if (score >= 60 && score <= 175) {
-    //   $('#javascript').hide();
-    //   $('#c').hide();
-    //   $('#python').show();                    //
-    //   $('#ruby').hide();
-    // } else if (score > 175 && score <= 349) {
-    //   $('#javascript').hide();
-    //   $('#c').show();                         //
-    //   $('#python').hide();
-    //   $('#ruby').hide();
-    // } else if (score >= 350) {
-    //   $('#javascript').hide();
-    //   $('#c').hide();
-    //   $('#python').hide();
-    //   $('#ruby').show();                      //
-    // }
   });
-  // console.log('running')
 });
