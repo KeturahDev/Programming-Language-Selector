@@ -24,4 +24,6 @@ There are currently no known bugs, however, if there are any issues running this
 
 ## Legal
 
+Licensed under MIT.
+
 Copyright (c) 2020 Keturah D Howard.
